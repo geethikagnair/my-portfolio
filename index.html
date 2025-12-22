@@ -1,0 +1,357 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da6f1adb68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="./CB.SC.U4CSE23616.pdf">Resume</a></li>
+                    <li><a href="#certifications">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="home-content">
+
+    <!-- LEFT: TEXT -->
+    <div class="header-text">
+        <h1>Hello!<br> I'm <span>Geethika G Nair</span></h1>
+        <p>
+          A driven CSE student passionate about software engineering and building
+          meaningful, real-world projects.
+        </p>
+        <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
+    </div>
+
+    <!-- RIGHT: IMAGE -->
+    <div class="header-photo">
+        <img src="./images/image1.jpg" alt="Geethika G Nair">
+    </div>
+
+</div>
+
+            </div>
+        </div>  
+    </div>
+    <!---about-->
+<!-- ABOUT SECTION -->
+<div id="about">
+  <div class="container">
+
+    <!-- About Me Title -->
+    <h1 class="sub-title center">About Me</h1>
+
+    <!-- About Description -->
+    <div class="about-description">
+      <p>
+        I’m a 3rd-year Computer Science Engineering student with a passion for software engineering and crafting real-world solutions through clean, scalable code.
+        Beyond coding, I thrive in creativity—whether it’s expressing myself through dance as a proud member of my college dance team, Natyasudha, 
+        performing at events like Anokha, Mun Conference, Ignite, Gokulashtami, and many college festivals, or exploring my artistic side through drawing and design.
+        I love traveling, discovering new experiences, and blending my technical skills with creative pursuits to bring unique ideas to life.
+        My journey is all about combining logic with imagination to make an impact, one project, one performance, and one adventure at a time.
+      </p>
+    </div>
+
+    <!-- Skills or other About Content can go here -->
+
+  </div>
+</div>
+
+<!-- Education Section: moved OUTSIDE the two-column about grid -->
+<section class="education-section">
+  <div class="container">
+    <h1 class="sub-title center">Education</h1>
+    <p class="section-subtitle">My academic journey and educational achievements</p>
+
+    <div class="edu-timeline">
+
+      <!-- Item 1 -->
+      <div class="edu-item left">
+        <div class="edu-card">
+          <span class="edu-badge pursuing">Currently Pursuing</span>
+          <h3>Amrita Vishwa Vidyapeetham</h3>
+          <p class="edu-location">Coimbatore, Tamil Nadu</p>
+          <p class="edu-degree">B.Tech in Computer Science Engineering</p>
+          <p class="edu-score">CGPA: 7.9</p>
+          <p class="edu-desc">
+            Pursuing comprehensive education in computer science with focus on
+            software engineering, embedded systems, and modern technologies.
+          </p>
+          <span class="edu-year">2023 – Present</span>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="edu-item right">
+        <div class="edu-card">
+          <span class="edu-badge completed">Completed</span>
+          <h3>Bharatiya Vidya Bhavan School</h3>
+          <p class="edu-location">Kozhikode, Kerala</p>
+          <p class="edu-degree">Grade 12 (CBSE)</p>
+          <p class="edu-score">87.8%</p>
+          <p class="edu-desc">
+            Strong foundation in science and mathematics with consistent academic performance.
+          </p>
+          <span class="edu-year">2023</span>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="edu-item left">
+        <div class="edu-card">
+          <span class="edu-badge completed">Completed</span>
+          <h3>Bharatiya Vidya Bhavan School</h3>
+          <p class="edu-location">Kozhikode, Kerala</p>
+          <p class="edu-degree">Grade 10 (CBSE)</p>
+          <p class="edu-score">95.8%</p>
+          <p class="edu-desc">
+            Achieved excellent academic performance with strong fundamentals.
+          </p>
+          <span class="edu-year">2021</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      <!-- Skills -->
+      <section class="skills-section">
+  <h1 class="sub-title center">Skills & Expertise</h1>
+
+  <div class="skills-categories">
+
+    <div class="skill-card">
+      <h3>Programming Languages</h3>
+      <span>Python</span><span>C</span><span>C++</span><span>JavaScript</span>
+    </div>
+
+    <div class="skill-card">
+      <h3>Web Technologies</h3>
+      <span>HTML</span><span>CSS</span><span>React.js</span><span>Node.js</span>
+    </div>
+
+    <div class="skill-card">
+      <h3>Core CS</h3>
+      <span>Data Structures</span><span>OOP</span><span>Operating Systems</span>
+      <span>Computer Networks</span>
+    </div>
+
+    <div class="skill-card">
+      <h3>Databases & Tools</h3>
+      <span>MySQL</span><span>Git</span><span>VS Code</span><span>Jupyter</span>
+    </div>
+
+    <div class="skill-card">
+      <h3>Embedded & IoT</h3>
+      <span>Arduino</span><span>ESP32</span><span>Embedded Systems</span>
+    </div>
+
+  </div>
+</section>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!--portfoliio/myworks-->
+<div id="portfolio">
+    <div class="conatiner">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+            <div class="project-card">
+                <img src="images/edge.png">
+                    <h3>Software Simulation of an IoT-Based Edge System for Industrial Resource Tracking</h3>
+                    <p>This project aims to design and simulate a WiFi-based indoor tracking system using an edge–cloud architecture</p>
+                    <a href="https://github.com/geethikagnair/capstone-project-03_cloud9" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/petpal.png">
+                    <h3>PetPal</h3>
+                    <p>This is a website for pet care and adoption platform. The application highlights available pets, provides detailed adoption guidance, and features a curated marketplace of high-quality pet food and supplies</p>
+                    <a href="https://github.com/geethikagnair/PetPal" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/embedded.png">
+                    <h3>Proximity Sensor Alarm System</h3>
+                    <p>The Proximity Alarm System is designed to detect the distance of an object using an ultrasonic sensor (HC-SR04) and alert users with visual and audio feedback</p>
+                    <a href="https://github.com/geethikagnair/proximity-sensor-alarm-system" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/todo.png">
+                    <h3>To-do-list</h3>
+                    <p>This project implements a simple, text-based To-Do List management system on the ESP32 using the SPIFFS filesystem for persistent storage. Users interact with the system through the Serial Monitor, issuing commands to add, list, edit, delete, and mark tasks as completed</p>
+                    <a href="https://github.com/geethikagnair/to-do-list" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/arduino.png">
+                    <h3>Interactive Attendance Management System</h3>
+                    <p>This project presents an Interactive Attendance Management Interface designed to streamline the process of recording and managing attendance in educational or organizational settings. The system leverages user-friendly components to enable efficient attendance tracking, minimizing manual errors and simplifying data management.</p>
+                    <a href="https://github.com/geethikagnair/interactive-attendance-management-interface" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/esp.png">
+                    <h3>File System Usage</h3>
+                    <p>This project helps in tracking file storage on ESP32, ensuring optimal space management. By automating the deletion of old files when memory is nearly full, we prevent system crashes and data overflow issues. Future enhancements can include file prioritization, SD card integration, and cloud storage backup.</p>
+                    <a href="https://github.com/geethikagnair/file-system-usage" class="project-btn">View Project</a>
+                
+            </div>
+             <div class="project-card">
+                <img src="images/timetable.png">
+                
+                    <h3>University Timetable Scheduler</h3>
+                    <p>This project implements a University Timetable Scheduling System in Java that uses the Hill Climbing search algorithm to minimize scheduling conflicts. The system automatically optimizes class schedules by resolving conflicts such as multiple courses assigned to the same room or a professor being scheduled for multiple classes at the same time</p>
+                    <a href="https://github.com/geethikagnair/interactive-attendance-management-interface" class="project-btn">View Project</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Certifications Section -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+
+        <div class="cert-scroll">
+            <div class="cert-card">
+                <img src="./images/aws.jpeg" alt="AWS Certification">
+                <h3>AWS Cloud Engineer(CIR × AWS Academy)</h3>
+                <p>Hands-on training in AWS cloud services, architecture, and deployment fundamentals.</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="./images/torchitup.jpeg" alt="DSA Certification">
+                <h3>Torch It Up – PyTorch</h3>
+                <p>Practical exposure to deep learning concepts using PyTorch.</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="./images/seedball.jpeg" alt="Web Dev Certification">
+                <h3>Seed Ball Making</h3>
+                <p>Environmental initiative promoting sustainability and social responsibility.</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="./images/marathon.jpeg" alt="Python Certification">
+                <h3>Campus Marathon</h3>
+                <p>Participation in a campus-wide marathon celebrating Independence Day 2023.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div id="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="geethikagnair15@gmail.com"><i class="fa-regular fa-envelope"></i></a>geethikagnair15@gmail.com</p>
+                <p><a href="tel:+918590815493"><i class="fa-solid fa-phone"></i></a>+918590815493</p>
+                <div class="social-icons">
+                    <a href="https://github.com/geethikagnair"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/geethika-g-nair-53aa20319"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CSE23616.pdf" download class="btn btn2">download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>
+        © 2025 <span>Geethika G Nair</span>. All rights reserved.
+    </p>
+    <p class="credit">
+        Designed & Built with <i class="fa-solid fa-heart"></i> using HTML, CSS & JavaScript
+    </p>
+</div>
+
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw14BTan5sllHnbUqxjdaw_4JhvRLIkQH46yqNLtayFQEvw0QGnS_P6XYCzZr1mKkLOsg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  const submitBtn = form.querySelector('button[type="submit"]')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+
+    // Prevent multiple clicks
+    submitBtn.disabled = true
+    submitBtn.innerText = "Sending..."
+    msg.innerHTML = "Sending message..."
+
+    fetch(scriptURL, {
+      method: 'POST',
+      body: new FormData(form)
+    })
+    .then(response => {
+      msg.innerHTML = "Message sent successfully ✅"
+      form.reset()
+
+      setTimeout(() => {
+        msg.innerHTML = ""
+      }, 5000)
+    })
+    .catch(error => {
+      msg.innerHTML = "Something went wrong ❌"
+      console.error('Error!', error.message)
+    })
+    .finally(() => {
+      // Re-enable button
+      submitBtn.disabled = false
+      submitBtn.innerText = "Submit"
+    })
+  })
+</script>
+
+</body>
+</html>
