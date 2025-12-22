@@ -307,12 +307,14 @@
 
 
 
-    var sidemenu=document.getElementById("sidemenu");
-    function openmenu(){
-        sidemenu.style.right="0";
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.classList.add("show");
     }
-    function closemenu(){
-        sidemenu.style.right="-200px";
+
+    function closemenu() {
+        sidemenu.classList.remove("show");
     }
 </script>
 <script>
@@ -354,4 +356,5 @@
 </script>
 
 </body>
+
 </html>
